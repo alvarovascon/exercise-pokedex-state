@@ -8,7 +8,7 @@ class Pokemon extends React.Component {
         <h4>{name}</h4>
         <p>type: {type}</p>
         <p>weigth: {averageWeight.value} {averageWeight.measurementUnit}</p>
-        <img src={image}></img>
+        <img alt="" src={image}></img>
         <a href={moreInfo}>additional info</a>
       </div>
     )
